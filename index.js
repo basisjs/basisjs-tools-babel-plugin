@@ -20,7 +20,9 @@ module.exports = {
       try
       {
         var result = babel.transform(content, objectAssign({
-          }, options));
+          sourceMaps: true,
+          sourceFileName: filename
+        }, options));
   
         callback(null, result.code);
       }
