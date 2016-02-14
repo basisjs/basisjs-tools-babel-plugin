@@ -2,6 +2,10 @@
   "name": "basisjs-tools-babel-plugin",
   "version": "1.0.0",
   "description": "Babel plugin for basisjs-tools",
+  "homepage": "https://github.com/wuzyk/basisjs-tools-babel-plugin",
+  "repository": "wuzyk/basisjs-tools-babel-plugin",
+  "author": "Vladimir Ratsev <vratsev@gmail.com>",
+  "license": "MIT",
   "peerDependencies": {
     "babel-core": ">6.5.1"
   },
