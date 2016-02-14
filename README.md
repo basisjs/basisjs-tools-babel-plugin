@@ -17,7 +17,6 @@ Add to basis.config these settings:
         "presets": ["es2015"]
       },
       "ignore": [
-        "build/**",
         "node_modules/**"
       ]
     }
