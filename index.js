@@ -20,6 +20,7 @@ module.exports = {
       try
       {
         var result = babel.transform(content, objectAssign({
+          compact: false,
           sourceMaps: true,
           sourceFileName: filename
         }, options));
