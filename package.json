@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Babel plugin for basisjs-tools",
   "peerDependencies": {
-    "babel-core": "^6.5.1"
+    "babel-core": ">6.5.1"
   },
   "dependencies": {
     "object-assign": "^4.0.1"
