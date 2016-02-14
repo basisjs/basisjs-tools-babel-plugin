@@ -3,7 +3,7 @@ Babel plugin for basisjs-tools
 ## Install
 
 ```
-npm install babel-core basisjs-tools-babel-plugin
+npm install basisjs-tools-babel-plugin babel-core babel-preset-es2015
 ```
 
 ## Usage
@@ -15,7 +15,11 @@ Add to basis.config these settings:
       "name": "basisjs-tools-babel-plugin",
       "options": {
         "presets": ["es2015"]
-      }
+      },
+      "ignore": [
+        "build/**",
+        "node_modules/**"
+      ]
     }
   ]
 }
