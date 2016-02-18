@@ -2,8 +2,13 @@ Babel plugin for basisjs-tools
 
 ## Install
 
+### Install plugin
 ```
-npm install basisjs-tools-babel-plugin babel-core babel-preset-es2015
+npm install --save-dev basisjs-tools-babel-plugin
+```
+### Install babel and plugins or presets you want
+```
+npm install --save-dev babel-core babel-preset-es2015 
 ```
 
 ## Usage
