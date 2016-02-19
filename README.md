@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/basisjs-tools-babel-plugin.svg)](https://www.npmjs.com/package/basisjs-tools-babel-plugin)
+
 Babel plugin for basisjs-tools
 
 ## Install
